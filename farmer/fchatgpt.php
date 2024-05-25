@@ -126,9 +126,9 @@ $query4 = "SELECT * from farmerlogin where email='$user_check'";
 function clearContent(){
     document.getElementById('chatbox').innerHTML = '';
 }
-// sk-proj-ZejaxRpTUfMDRo0tsycHT3BlbkFJeAkrZva1XbmrRme1heOb
+
 const url = new URL(window.location.href);
-const apiKey = "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";   // Enter your apikey here
+const apiKey = "";   // Enter your apikey here
 const chatbox = $("#chatbox");
 const userInput = $("#userInput");
 const sendButton = $("#sendButton");
